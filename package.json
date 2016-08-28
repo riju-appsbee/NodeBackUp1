@@ -1,0 +1,66 @@
+{
+  "name": "foodjets_admin",
+  "version": "1.0.0",
+  "description": "New foodjets admin",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternalxlnc/Foodjets_Admin.git"
+  },
+  "keywords": [
+    "foodjets"
+  ],
+  "author": "@foodjets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eternalxlnc/Foodjets_Admin/issues"
+  },
+  "homepage": "https://github.com/eternalxlnc/Foodjets_Admin#readme",
+  "dependencies": {
+    "angular-paging": "^2.2.1",
+    "async": "^2.0.0-rc.3",
+    "aws-sdk": "^2.3.9",
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "crypto": "0.0.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "express-session": "^1.13.0",
+    "express-unless": "^0.3.0",
+    "firebase": "^3.0.2",
+    "heartland-nodejs": "^0.1.2",
+    "international-phone-number": "0.0.11",
+    "jsonwebtoken": "^7.0.0",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.4",
+    "mongoose": "^4.4.15",
+    "morgan": "^1.7.0",
+    "mysql": "^2.10.2",
+    "nodemon": "^1.9.1",
+    "raven": "^0.10.0",
+    "redis": "^2.6.2",
+    "sequelize": "^3.22.0",
+    "shortid": "^2.2.6",
+    "twilio": "^2.9.1",
+    "underscore": "^1.8.3",
+    "validator": "^5.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "tiny-lr": "^0.2.1"
+  }
+}
